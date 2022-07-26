@@ -36,13 +36,13 @@ const useRegisterEffect = (showToast) => {
     try {
       const { username, password, ensurement } = data
       if (username === '' && password === '' && ensurement === '') {
-        return showToast('请先输入用户名和密码')
+        return showToast('请输入用户名和密码')
       } else if (username === '') {
         return showToast('用户名不能为空')
       } else if (password === '' && ensurement === '') {
         return showToast('密码不能为空')
       } else if (password !== ensurement) {
-        return showToast('密码输入不一致')
+        return showToast('密码输入不一致,请重新输入')
       }
       const result = await post('/api/user/register', {
         username: data.username,

@@ -29,7 +29,7 @@ const useLoginEffect = (showToast) => {
     try {
       const { username, password } = data
       if (username === '' && password === '') {
-        return showToast('请先输入用户名和密码')
+        return showToast('请输入用户名和密码')
       } else if (username === '') {
         return showToast('用户名不能为空')
       } else if (password === '') {
