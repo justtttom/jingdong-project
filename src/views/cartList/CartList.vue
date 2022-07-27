@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="title">我的全部购物车(2)</div>
+    <div class="title">我的全部购物车</div>
 
     <div class="carlist">
       <div class="carlist__shop">沃尔玛</div>
