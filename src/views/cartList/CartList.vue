@@ -3,11 +3,11 @@
     <div class="title">我的全部购物车</div>
 
     <div class="carlist">
-      <div class="carlist__shop">沃尔玛</div>
+      <div class="carlist__shop">山姆超市</div>
       <div class="carlist__list">
         <img class="carlist__list__img" src="http://www.dell-lee.com/imgs/vue3/超市.png" />
         <div class="carlist__list__p">
-          <h4 class="carlist__list__title">番茄250g/份</h4>
+          <h4 class="carlist__list__title">🍅番茄250g/份</h4>
           <p class="carlist__list__price">
             <span class="carlist__list__single ">
               <span class="carlist__list__yen">&yen;</span>
