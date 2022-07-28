@@ -1,3 +1,4 @@
+// 路由相关
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [{
