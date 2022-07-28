@@ -1,4 +1,4 @@
-// 数据管理
+// 数据
 import Vuex from 'vuex'
 
 const setLocalCartList = (state) => {
